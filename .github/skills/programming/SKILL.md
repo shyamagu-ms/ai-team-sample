@@ -40,5 +40,5 @@ description: 企画書と設計書の内容を元に、Web UI PoC プロジェ�
 # 成果物
 
 - poc/srcにソースコード一式保存してください。
-- poc/e2eに起動確認セッションの成果物はスクリーンキャプチャを含めて保存してください。
+- poc/e2eに playwright-cli動作確認時の成果物を保存してください。
 - Web検索やmicrosoft.docs.mcp/*を使って調査した内容は、事前調査報告書を作成し、poc/src/docsに保存してください。
