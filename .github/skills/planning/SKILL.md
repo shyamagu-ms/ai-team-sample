@@ -4,7 +4,9 @@ description: ユーザの要望をヒアリングし、Web UI PoC プロジェ�
 ---
 
 # 準備
-- サブエージェントとして、企画エージェント(`.github/agents/planner.agent.md`)をモデル"Claude Opus 4.7"で実行します。
+- サブエージェントとして、企画エージェント(`.github/agents/planner.agent.md`)をモデル"Claude Opus 4.8"で実行します。
+
+※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
 
 # 企画作業
 

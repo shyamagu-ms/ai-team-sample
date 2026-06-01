@@ -4,7 +4,9 @@ description: Web UI PoCプロジェクトのレビューを行います。
 ---
 
 # 準備
-- サブエージェントとして、レビュイーエージェント(`.github/agents/reviewee.agent.md`)をモデル"Claude Opus 4.7"で実行します。
+- サブエージェントとして、レビュイーエージェント(`.github/agents/reviewee.agent.md`)をモデル"Claude Opus 4.8"で実行します。
+
+※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
 
 # レビュー会の開催
 
