@@ -3,6 +3,17 @@
     "microsoft.docs.mcp": {
       "type": "http",
       "url": "https://learn.microsoft.com/api/mcp"
-    }
+    },
+  "workiq": {
+    "command": "npx",
+    "args": [
+      "-y",
+      "@microsoft/workiq",
+      "mcp"
+    ],
+    "tools": [
+      "*"
+    ]
+  }
   }
 }
