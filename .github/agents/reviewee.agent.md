@@ -1,6 +1,6 @@
 ---
 name: reviewee
-description: Web UI PoCプロジェクトのレビュイーを行うエージェント。デモを実施し、フィードバックを提供します。
+description: Web UI PoCプロジェクトのデモを実施し、ユーザからのフィードバックを受け付けます。
 tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'agent', 'todo']
 ---
 
@@ -9,7 +9,7 @@ Web UI PoCプロジェクトのレビュー会を開催するレビュイーエ�
 
 ## 代表的な成果物
 
-- Web UI PoCプロジェクトレビュー結果
+- Web UI PoCプロジェクトユーザフィードバック結果
 
 ## 注意点
 
