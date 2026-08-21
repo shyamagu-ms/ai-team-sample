@@ -1,12 +1,9 @@
-# Agent model map
+# Active agent model map
 
-| Agent | Model | Effort |
-|---|---|---|
-| planner | Grok 4.6 (`grok-4.6`) | medium |
-| designer | Claude Opus 5 (`claude-opus-5`) | medium |
-| programmer | GPT-5.6 Sol (`gpt-5.6-sol`) | medium |
-| researcher | GPT-5.6 Luna (`gpt-5.6-luna`) | medium |
-| validator | GPT-5.6 Luna (`gpt-5.6-luna`) | medium |
-| reviewee | GPT-5.6 Terra (`gpt-5.6-terra`) | medium |
+Active profile file: `.github/model-map-profiles/cost-optimized-sonnet5-luna-mai.md`
 
-各スキルはこの表をモデル設定の正とします。親エージェントが子エージェントを起動する場合も、対象行のモデルとEffortを起動引数に明示し、ランタイムの既定モデルを使用しません。調査は`researcher`、実装後の動作確認は`validator`設定を使用します。
+このファイルだけをモデル設定の入口とします。上記のActive profile fileを読み、その表だけを有効な子エージェント設定として使用してください。`.github/model-map-profiles/`内のほかのファイルは候補であり、検索結果に現れても参照してはいけません。
+
+親セッション（オーケストレータ）のモデルはこの設定の対象外です。親モデルはセッション開始時の選択に従い、このファイルを根拠に親モデルを変更したり、`orchestrator`行を推測したりしてはいけません。
+
+親エージェントが子エージェントを起動する場合は、Active profile fileの対象行にあるモデルとEffortを起動引数へ明示し、ランタイムの既定モデルを使用しません。調査は`researcher`、実装後の動作確認は`validator`設定を使用します。
