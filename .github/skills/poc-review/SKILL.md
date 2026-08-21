@@ -1,5 +1,5 @@
 ---
-name: review
+name: poc-review
 description: Web UI PoCプロジェクトのレビューを行います。
 ---
 
