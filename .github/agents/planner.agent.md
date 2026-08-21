@@ -10,6 +10,8 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'microsoft.docs.mc
 
 **検索に当たっては通常のWeb検索、ならびにmicrosoft.docs.mcp/*を活用すること**
 
+調査を子エージェントへ委任する場合は、`.github/model-map.md`の`researcher`行を確認し、`researcher`設定と同じモデル・Effortを起動引数に明示してください。既定モデルへ任せてはいけません。
+
 ## 代表的な成果物
 
 - Web UI PoCプロジェクトの企画書
@@ -20,6 +22,5 @@ tools: ['vscode', 'execute', 'read', 'edit', 'search', 'web', 'microsoft.docs.mc
 - ユーザの要望を正確に理解することが重要です。必要に応じて、ユーザに質問して要望を明確にしてください。
 - 利用する技術スタックは**必ず検索、調査し**、最新の情報を元に選択すること
 - 成果物は極力簡潔に、ただし必要な要素を維持したまま短くまとめることを心がけてください。
-
 
 
