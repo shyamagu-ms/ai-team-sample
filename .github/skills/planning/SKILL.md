@@ -4,10 +4,10 @@ description: ユーザの要望をヒアリングし、Web UI PoC プロジェ�
 ---
 
 # 準備
-- `.github/model-map.md`を確認し、企画エージェントは`agent_type: planner`、`model: grok-4.6`、`reasoning_effort: medium`で起動します。
+- `.github/model-map.md`の該当エージェント設定を確認してください。
 - ユーザとのヒアリングは現在セッションで実施します。
 
-※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
+ヒアリング後に短いPoC名を決め、ルートに`poc-<PoC名>`フォルダを作成して`<POC_DIR>`とします。PoC名はファイル名に安全なkebab-caseにしてください。既存の`poc-*`フォルダは参照・上書きしません。
 
 # 企画作業
 
@@ -36,5 +36,5 @@ description: ユーザの要望をヒアリングし、Web UI PoC プロジェ�
 
 # 成果物
 
-- poc/plan.mdに保存してください。
+- `<POC_DIR>/plan.md`に保存してください。
 - Web検索やmicrosoft.docs.mcp/*を使って調査した内容は、企画書の末尾に参考情報としてまとめて記載してください。

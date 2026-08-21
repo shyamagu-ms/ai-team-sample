@@ -4,9 +4,9 @@ description: Web UI PoCプロジェクトのレビューを行います。
 ---
 
 # 準備
-- `.github/model-map.md`を確認し、レビュイーエージェント(`.github/agents/reviewee.agent.md`)を`agent_type: reviewee`、`model: grok-4.6`、`reasoning_effort: medium`で起動します。
+- `.github/model-map.md`の該当エージェント設定を確認してください。
 
-※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
+対象の`poc-<PoC名>`フォルダを`<POC_DIR>`とします。未指定の場合はユーザに確認し、ほかの`poc-*`フォルダは参照しません。
 
 # レビュー会の開催
 
@@ -28,8 +28,8 @@ description: Web UI PoCプロジェクトのレビューを行います。
 ## フィードバックの収集と整理
 
 ユーザからのフィードバックを確認します。また他のシナリオなどの要望があれば、要望に従ったデモを実施します。
-併せてフィードバックを継続的に収集します。収集したフィードバックは、レビュイーエージェントが整理して成果物(poc/review-feedback.md)としてまとめてください。
+併せてフィードバックを継続的に収集します。収集したフィードバックは、レビュイーエージェントが整理して`<POC_DIR>/review-feedback.md`にまとめてください。
 
 # 成果物
 
-- poc/review-feedback.mdに保存してください。
+- `<POC_DIR>/review-feedback.md`に保存してください。
