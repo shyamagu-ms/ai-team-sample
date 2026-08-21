@@ -4,7 +4,7 @@ description: 企画書の内容を元に、Web UI PoC プロジェクトの設�
 ---
 
 # 準備
-- サブエージェントとして、設計エージェント(`.github/agents/designer.agent.md`)をモデル"Claude Opus 4.8"で実行します。
+- `.github/model-map.md`を確認し、設計エージェント(`.github/agents/designer.agent.md`)を`agent_type: designer`、`model: claude-opus-5`、`reasoning_effort: medium`で起動します。
 
 ※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
 
@@ -17,7 +17,7 @@ description: 企画書の内容を元に、Web UI PoC プロジェクトの設�
 
 設計エージェントを用いて、poc/plan.mdの内容を確認します。特に、Web UI PoCプロジェクトの目的やユーザーストーリー、必要な機能や構成などを正確に理解してください。
 
-内容について確認事項などがあれば、サブエージェントとして企画エージェント(`.github/agents/planner.agent.md`)を"Claude Opus 4.8"で呼び出して、企画者確認することも可能です。
+内容について確認事項があれば、企画エージェント(`.github/agents/planner.agent.md`)をplanner設定で呼び出せます。
 なお、このフェーズではユーザに確認が取れないため、企画エージェントと設計エージェントで全ての不足項目を決定してよいものとします。
 
 ## 事前調査セッション

@@ -4,7 +4,7 @@ description: 企画書と設計書の内容を元に、Web UI PoC プロジェ�
 ---
 
 # 準備
-- サブエージェントとして、開発エージェント(`.github/agents/programmer.agent.md`)をモデル"Claude Opus 4.8"で実行します。
+- `.github/model-map.md`を確認し、開発エージェント(`.github/agents/programmer.agent.md`)を`agent_type: programmer`、`model: gpt-5.6-sol`、`reasoning_effort: medium`で起動します。
 
 ※なお、ルートのpoc-*フォルダは過去のPoC成果物です。これらの内容は参照せずに新規のPoC(/poc)で実行してください。
 
@@ -17,8 +17,7 @@ description: 企画書と設計書の内容を元に、Web UI PoC プロジェ�
 
 開発エージェントを用いて、企画書(poc/plan.md)と設計書(poc/design.md)の内容を確認します。
 
-企画内容について確認事項などがあれば、サブエージェントとして企画エージェント(`.github/agents/planner.agent.md`)yを"Claude Opus 4.8"で呼び出して、企画者確認することも可能です。
-設計内容について確認事項などがあれば、サブエージェントとして設計エージェント(`.github/agents/designer.agent.md`)を"Claude Opus 4.8"で呼び出して、設計者確認することも可能です。
+企画内容について確認事項があれば企画エージェントをplanner設定で、設計内容について確認事項があれば設計エージェントをdesigner設定で呼び出せます。
 
 なお、このフェーズではユーザに確認が取れないため、企画エージェントと設計エージェントならびに開発エージェントで全ての不足項目を決定してよいものとします。
 
