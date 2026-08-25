@@ -1,6 +1,6 @@
 # Active agent model map
 
-Active profile file: `.github/model-map-profiles/maximum-quality-opus5-gpt56-sol.md`
+Active profile file: `.github/model-map-profiles/cost-optimized-sonnet5-luna-mai.md`
 
 このファイルだけをモデル設定の入口とします。上記のActive profile fileを読み、その表だけを有効な子エージェント設定として使用してください。`.github/model-map-profiles/`内のほかのファイルは候補であり、検索結果に現れても参照してはいけません。
 
