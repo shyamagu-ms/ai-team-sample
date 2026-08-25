@@ -1,2 +1,10 @@
 .playwright-cli
 /poc*
+
+# Local secrets and browser authentication state
+.env
+.env.*
+!.env.example
+auth.json
+storage-state-*.json
+*.auth-state.json

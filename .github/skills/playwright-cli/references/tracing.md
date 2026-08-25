@@ -1,5 +1,7 @@
 # Tracing
 
+> Modified from Microsoft Playwright documentation.
+
 Capture detailed execution traces for debugging and analysis. Traces include DOM snapshots, screenshots, network activity, and console logs.
 
 ## Basic Usage

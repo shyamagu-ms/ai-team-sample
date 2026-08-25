@@ -1,5 +1,7 @@
 # Storage Management
 
+> Modified from Microsoft Playwright documentation.
+
 Manage cookies, localStorage, sessionStorage, and browser storage state.
 
 ## Storage State

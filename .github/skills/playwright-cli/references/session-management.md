@@ -1,5 +1,7 @@
 # Browser Session Management
 
+> Modified from Microsoft Playwright documentation.
+
 Run multiple isolated browser sessions concurrently with state persistence.
 
 ## Named Browser Sessions

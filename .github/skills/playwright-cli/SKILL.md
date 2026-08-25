@@ -4,6 +4,8 @@ description: Automate browser interactions, test web pages and work with Playwri
 allowed-tools: Bash(playwright-cli:*) Bash(npx:*) Bash(npm:*)
 ---
 
+> Modified from Microsoft Playwright documentation.
+
 # Browser Automation with playwright-cli
 
 ## Quick start

@@ -1,5 +1,7 @@
 # Spec-driven testing (plan → generate → heal)
 
+> Modified from Microsoft Playwright documentation.
+
 End-to-end workflow for authoring and maintaining Playwright tests using `playwright-cli`. The three sections below can be used independently:
 
 - **Planning** — explore the app, produce a spec file describing what to test.
