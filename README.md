@@ -11,6 +11,12 @@ AIエージェントを企画・設計・実装・検証・レビューの役割
 - `.github/model-map-profiles/`: モデル設定例
 - `.vscode/mcp.json`: Microsoft LearnとWorkIQのMCP設定
 
+## 使い方
+
+- `/execute-poc`を実行し、ヒアリングに回答すると、企画・設計・実装・動作確認を順に進めます。
+- 成果物はルートの`poc-<PoC名>`に保存します。PoC成果物は全てGit管理対象外です。
+- 子エージェントのモデルは、`.github/model-map.md`の`Active profile file`を変更して切り替えます。親セッションのモデルは変更されません。
+
 ## 注意
 
 WorkIQはMicrosoft 365のメール、会議、ファイルなどにアクセスできるMCPです。使用しない場合は、`.vscode/mcp.json`の`workiq`設定を削除または無効化してください。使用する場合は、組織のポリシーとアクセス許可を確認してください。

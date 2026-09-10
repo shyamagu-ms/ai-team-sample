@@ -1,5 +1,7 @@
 .playwright-cli
-/poc*
+# Local PoC artifacts (including the legacy directory)
+/poc/
+/poc-*/
 
 # Local secrets and browser authentication state
 .env

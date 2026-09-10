@@ -1,4 +1,4 @@
-# Maximum-quality profile: GPT-6 Astra
+# Mixed-quality profile: GPT-6 Astra, GPT-5.6 Sol, MAI-Code-1.1-Flash and GPT-5.6 Luna
 
 このファイルは`.github/model-map.md`のActive profile fileに指定された場合だけ有効です。
 
@@ -10,5 +10,4 @@
 | researcher | GPT-5.6 Luna (`gpt-5.6-luna`) | medium |
 | validator | GPT-5.6 Luna (`gpt-5.6-luna`) | medium |
 | reviewee | GPT-5.6 Luna (`gpt-5.6-luna`) | medium |
-
 
